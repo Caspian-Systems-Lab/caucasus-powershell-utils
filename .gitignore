@@ -1,0 +1,33 @@
+# PowerShell-specific ignores
+*.psd1
+*.psm1
+*.ps1xml
+*.pssc
+*.pssnapin
+*.ps1.save
+*.ps1.tmp
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# VSCode
+.vscode/
+history/
+session.json
+
+# JetBrains Rider / JetBrains tools
+.idea/
+
+# PowerShell build artifacts
+out/
+build/
+dist/
+Modules/
+Generated/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
